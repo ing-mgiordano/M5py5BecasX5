@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becas</title>
+</head>
+
+<body>
+    <div id="conteiner">
+        <header>
+            <h1 align="center">Obten 1 de las 5 Becas de Idiomas</h1>
+        </header>
+
+        <section id=" content"></section>
+
+            <fieldset>
+                <legend>*Ingrese su NOMBRE COMPLETO</legend>
+                <input required type='text' id="input-name" placeholder="Nombre">
+            </fieldset>
+
+            <fieldset>
+                <legend>*Ingrese su EDAD</legend>
+                <input required type='number' id="input-age" placeholder="Edad">
+            </fieldset>
+
+            <fieldset>
+                <legend>Tienes titulo UNIVERSITARIO?</legend>
+                <input type='checkbox' id="input-title">
+            </fieldset>
+
+            <fieldset>
+                <legend>Estas en el PARO?</legend>
+                <input type='checkbox' id="input-paro">
+            </fieldset>
+            <br>
+            <button onclick="sendUserForm()"><h3>Aplicar</h3></button>
+
+            <h3 id="scholship-result"></h3>
+            <br>
+            <h5 id="full-quotas"></h5>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>(*)Campos obligatorios</p>
+
+        </section>
+
+        <script src="./index.js"></script>
+    </div>
+</body>
+
+</html>
